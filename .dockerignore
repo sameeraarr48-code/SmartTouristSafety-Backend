@@ -1,0 +1,10 @@
+target/
+frontend/
+node_modules/
+.git/
+.gitignore
+.settings/
+.project
+.classpath
+HELP.md
+*.md
