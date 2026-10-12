@@ -10,7 +10,6 @@ import com.smarttourist.safety.service.EmergencyServiceService;
 
 @RestController
 @RequestMapping("/api/emergency-services")
-@CrossOrigin(origins = "http://localhost:5173")
 public class EmergencyServiceController {
 
     private final EmergencyServiceService service;

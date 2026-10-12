@@ -10,7 +10,6 @@ import com.smarttourist.safety.repository.SafetyInfoRepository;
 
 @RestController
 @RequestMapping("/api/safety")
-@CrossOrigin(origins = "http://localhost:5173")
 public class SafetyInfoController {
 
     private final SafetyInfoRepository repository;

@@ -11,7 +11,6 @@ import com.smarttourist.safety.service.IncidentService;
 
 @RestController
 @RequestMapping("/api/incidents")
-@CrossOrigin(origins = "http://localhost:5173")
 public class IncidentController {
 
     private final IncidentService service;

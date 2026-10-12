@@ -11,7 +11,6 @@ import com.smarttourist.safety.service.TripService;
 
 @RestController
 @RequestMapping("/api/trips")
-@CrossOrigin(origins = "http://localhost:5173")
 public class TripController {
 
     private final TripService service;
